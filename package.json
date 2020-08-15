@@ -1,0 +1,27 @@
+{
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "description": "Downloads mp3 from youtube.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arte921/youtube-downloader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arte921/youtube-downloader/issues"
+  },
+  "homepage": "https://github.com/arte921/youtube-downloader#readme",
+  "devDependencies": {
+    "electron": "^9.2.0",
+    "electron-packager": "^15.0.0"
+  },
+  "dependencies": {
+    "ytdl-core": "^3.2.1"
+  }
+}
